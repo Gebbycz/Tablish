@@ -19,3 +19,5 @@ Pruning (Alpha-Beta): If the bot spots a branch of moves that is guaranteed to b
 When the main 5-turn search limit is reached, the bot doesn't just stop. Stopping in the middle of a chaotic trade would cause the bot to blunder.
 
 Instead, it enters a mini-search that continues evaluating only capture moves until the board is "quiet" (no immediate captures are left). This ensures it only makes decisions based on stable, safe positions.
+
+Download Python newest at https://python.org/downloads/ Download libraries via cmd pip install pygame-ce python-chess
